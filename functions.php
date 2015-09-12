@@ -23,9 +23,9 @@
  * @package    Korin
  * @subpackage Functions
  * @version    1.0.0
- * @author     Justin Tadlock <justin@justintadlock.com>
- * @copyright  Copyright (c) 2013 - 2015, Justin Tadlock
- * @link       http://themehybrid.com/themes/korin
+ * @author     OakwoodGates
+ * @copyright  Copyright (c) 2015, OakwoodGates
+ * @link       https://github.com/oakwoodgates/korin
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 

@@ -2,6 +2,7 @@
 <html <?php language_attributes( 'html' ); ?>>
 
 <head <?php hybrid_attr( 'head' ); ?>>
+<meta name="msvalidate.01" content="3CB1D5764790CB11D47160D142087394" />
 <?php wp_head(); // Hook required for scripts, styles, and other <head> items. ?>
 </head>
 

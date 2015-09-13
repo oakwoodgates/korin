@@ -33,10 +33,12 @@
 $korin_dir = trailingslashit( get_template_directory() );
 
 // Load the Hybrid Core framework and theme files.
-require_once( $korin_dir . 'library/hybrid.php'        );
+require_once( $korin_dir . 'hybrid-core/hybrid.php'        );
 require_once( $korin_dir . 'inc/custom-background.php' );
 require_once( $korin_dir . 'inc/custom-header.php'     );
 require_once( $korin_dir . 'inc/theme.php'             );
+require_once( $korin_dir . 'oaklib/dev.php'             );
+require_once( $korin_dir . 'oaklib/attr.php'             );
 
 // Launch the Hybrid Core framework.
 new Hybrid();
@@ -67,7 +69,7 @@ function korin_theme_setup() {
 	add_theme_support( 'breadcrumb-trail' );
 
 	// Nicer [gallery] shortcode implementation.
-	add_theme_support( 'cleaner-gallery' );
+//	add_theme_support( 'cleaner-gallery' );
 
 	// Automatically add feed links to <head>.
 	add_theme_support( 'automatic-feed-links' );
